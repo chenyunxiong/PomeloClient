@@ -1,0 +1,145 @@
+[2017-03-29 22:29:57.161] [INFO] pomelo - [32m[D:\MyBlog\socketServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-29 22:29:58.675] [INFO] pomelo - [32m[D:\MyBlog\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2017-03-29 22:29:58.685] [INFO] pomelo - [32m[D:\MyBlog\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2017-03-29 22:29:58.686] [INFO] pomelo - [32m[D:\MyBlog\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 1294 ms
+[2017-03-30 21:26:15.908] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-30 21:31:20.598] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-30 21:31:21.248] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2017-03-30 21:31:21.259] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2017-03-30 21:31:21.260] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 577 ms
+[2017-03-30 21:32:44.978] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2017-03-30 21:32:45.013] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"chenyunxiong"},"compressGzip":0}
+[2017-03-30 21:32:45.017] [ERROR] pomelo - [31m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'msgRemote' of undefined
+    at doForward (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:334:39)
+    at dispatch (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at pro.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:381:15)
+    at null.<anonymous> (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:284:5)
+    at emitOne (events.js:77:13)
+[2017-03-30 21:32:45.018] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:32:50.632] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":0,"route":"gate.gateHandler.send","body":{},"compressGzip":0}
+[2017-03-30 21:32:50.637] [ERROR] pomelo - [31m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'msgRemote' of undefined
+    at doForward (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:334:39)
+    at dispatch (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at pro.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:381:15)
+    at null.<anonymous> (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:284:5)
+    at emitOne (events.js:77:13)
+[2017-03-30 21:32:50.638] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 2, route: gate.gateHandler.send, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:34:24.465] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [connector-server-1] is closed with session id: 1
+[2017-03-30 21:34:28.599] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 2
+[2017-03-30 21:34:28.631] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":0,"route":"entry.entryHandler.queryEntry","body":{"uid":"chenyunxiong"},"compressGzip":0}
+[2017-03-30 21:34:28.632] [ERROR] pomelo - [31m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'msgRemote' of undefined
+    at doForward (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:334:39)
+    at dispatch (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at pro.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:381:15)
+    at null.<anonymous> (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:284:5)
+    at emitOne (events.js:77:13)
+[2017-03-30 21:34:28.632] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: entry.entryHandler.queryEntry, msg: {"code":500}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:34:35.147] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 2, msg: {"id":2,"type":0,"compressRoute":0,"route":"gate.gateHandler.send","body":{},"compressGzip":0}
+[2017-03-30 21:34:35.149] [ERROR] pomelo - [31m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'msgRemote' of undefined
+    at doForward (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:334:39)
+    at dispatch (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at pro.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:381:15)
+    at null.<anonymous> (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:284:5)
+    at emitOne (events.js:77:13)
+[2017-03-30 21:34:35.152] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 2, route: gate.gateHandler.send, msg: {"code":500}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:39:43.662] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-30 21:39:44.484] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2017-03-30 21:39:44.499] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2017-03-30 21:39:44.499] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 749 ms
+[2017-03-30 21:39:54.461] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2017-03-30 21:39:54.503] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"entry.entryHandler.entry","body":{"uid":"chenyunxiong"},"compressGzip":0}
+[2017-03-30 21:39:54.509] [ERROR] pomelo - [31m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'msgRemote' of undefined
+    at doForward (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:334:39)
+    at dispatch (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at pro.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:381:15)
+    at null.<anonymous> (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:284:5)
+    at emitOne (events.js:77:13)
+[2017-03-30 21:39:54.511] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: entry.entryHandler.entry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:42:00.561] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-30 21:42:01.308] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2017-03-30 21:42:01.320] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2017-03-30 21:42:01.320] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 665 ms
+[2017-03-30 21:42:08.696] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2017-03-30 21:42:08.725] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"entry.entryHandler.entry","body":{"uid":"chenyunxiong"},"compressGzip":0}
+[2017-03-30 21:42:08.729] [ERROR] pomelo - [31m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'msgRemote' of undefined
+    at doForward (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:334:39)
+    at dispatch (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at pro.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:381:15)
+    at null.<anonymous> (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:284:5)
+    at emitOne (events.js:77:13)
+[2017-03-30 21:42:08.730] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: entry.entryHandler.entry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:42:12.188] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":0,"route":"gate.gateHandler.send","body":{},"compressGzip":0}
+[2017-03-30 21:42:12.189] [ERROR] pomelo - [31m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'msgRemote' of undefined
+    at doForward (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:334:39)
+    at dispatch (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at pro.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:381:15)
+    at null.<anonymous> (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js:284:5)
+    at emitOne (events.js:77:13)
+[2017-03-30 21:42:12.195] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 2, route: gate.gateHandler.send, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:43:05.237] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-30 21:43:05.980] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2017-03-30 21:43:05.991] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2017-03-30 21:43:05.991] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 662 ms
+[2017-03-30 21:46:39.689] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2017-03-30 21:46:39.733] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":1,"route":"connector.entryHandler.entry","body":{"uid":"chenyunxiong"},"compressGzip":0}
+[2017-03-30 21:46:39.738] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:46:44.624] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":0,"route":"connector.entryHandler.send","body":{},"compressGzip":0}
+[2017-03-30 21:46:44.625] [WARN] pomelo - [33m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find the method send in handler: entryHandler
+[2017-03-30 21:46:44.625] [ERROR] pomelo - [31m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "connector.entryHandler.send"
+[2017-03-30 21:46:44.633] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for connector.entryHandler.send
+    at Service.handle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\handlerService.js:35:30)
+    at handle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:375:25)
+    at next (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:388:3)
+    at dispatch (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2017-03-30 21:46:44.635] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.send, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:49:00.325] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-30 21:49:01.618] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2017-03-30 21:49:01.639] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2017-03-30 21:49:01.639] [INFO] pomelo - [32m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 1146 ms
+[2017-03-30 21:49:18.792] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2017-03-30 21:49:18.854] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":1,"route":"connector.entryHandler.entry","body":{"uid":"chenyunxiong"},"compressGzip":0}
+[2017-03-30 21:49:18.866] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 21:49:23.771] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.entryHandler.send","body":{},"compressGzip":0}
+[2017-03-30 21:49:23.772] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.send, msg: {"code":200,"msg":"send data is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2017-03-30 22:05:05.003] [DEBUG] pomelo - [36m[D:\MyBlog\pomelo-Client-nodeServer\socketServer\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [connector-server-1] is closed with session id: 1
